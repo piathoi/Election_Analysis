@@ -85,6 +85,26 @@ with open(file_to_save, "w") as txt_file:
 
     txt_file.write(election_results)
 
+# 6a: write a repetition statement to get the county from the county dictionary
+for county_name in county_votes:
+
+   # 6b: retrieve the county vote count
+   vote_county = county_votes[county_name]
+
+   #6c: calculate the percent of total votes for the county
+   vote_county_percentage = float(vote_county) / float(total_votes) * 100
+
+   #6d: print county results to the terminal
+   county_results = (f"{county_name}: {vote_county_percentage:.1f}% ({vote_county:,})\n")
+   print(county_results)
+
+   # 6e: save the county votes to a text file
+   txt_file.write(county_results)
+
+   #6f: write a decision statement to determine the winning county and get its vote count
+   if (vote_county > winning_count):
+      winning_count = vote_county
+      largest_county_turnout = county_name
 
 
 
