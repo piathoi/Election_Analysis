@@ -18,7 +18,8 @@
  2. Software: Python 3.7.6, Visual Studio Code 1.66.2
 
  ## Election Audit Results
- Summaried election results:
+ Summarized election results:
+ 
  <img width="527" alt="election_results" src="https://user-images.githubusercontent.com/102835776/165669377-e2d6c429-40a6-4fd6-a756-eb391f4d100a.PNG">
  
  The total amount of votes that were cased in the congressional election was 369,771. Arapahoe won the least votes, with only 6.7 %, whereas Denver won the most votes with the percentage of 82.8%. Jefferson won 10.5% of the total votess.
